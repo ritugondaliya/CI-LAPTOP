@@ -1,0 +1,119 @@
+/* loginpage, ForgotPassPage, ResetPassPage, RegistrationPage */
+
+/**{
+    padding:0;
+    margin:0;
+}
+*/
+.body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.centerRegistrationForm{
+    padding: 10%;
+}
+.row{
+    margin:0;
+}
+.centerLogin{
+    margin-top: 20%;
+    padding: 10%;
+}
+.centerForgotPass{
+    margin-top: 20%;
+    padding: 2%;
+}
+.centerResetPass{
+    margin-top: 16%;
+    padding: 5%;
+}
+.container {
+    padding: 0;
+}
+.col-lg-8.col-md-12.col-sm-12 {
+    padding: 0;
+}
+
+
+.button{
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    width: 100%;
+    padding: 1.5%;
+    color: #F88634;
+}
+.link1{
+    text-decoration: none;
+    color:#414141;
+}
+.link2{
+    text-decoration: none;
+}
+.pp{
+    color: #414141;
+}
+.createacc, .link1{
+    font-size: 14px;
+}
+.smtext{
+    font-size: 14px;
+    text-align: left;
+}
+.maintext{
+    font-size: 35px;
+    text-align: left;
+}
+.carousel-indicators button{
+    height: 10px!important ;
+    width: 10px!important;
+    margin: 0 10px!important;
+    border-radius: 100%!important;
+    
+}
+
+/* loginpage, ForgotPassPage, ResetPassPage, RegistrationPage */
+
+@media screen and (max-width:992px){
+    .centerLogin, .centerResetPass, .centerForgotPass, .centerRegistrationForm{
+        margin-top: 0%;
+        top: 0% !important;
+        padding: 0;
+    }
+}
+@media screen and (min-width:992px){
+    .carousel-inner img {
+        height: 100vh;
+    }
+    .centerLogin, .centerResetPass, .centerForgotPass, .centerRegistrationForm{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:576px) {
+    .smtext{
+        display: none;
+    }
+    .maintext{
+        font-size: 15px;
+    }
+    .carousel-indicators button{
+        height: 5px!important;
+        width: 5px!important;
+        margin: 0 5px!important;
+        border-radius: 100%!important;
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .smtext{
+        font-size: 10px;
+    }
+    .maintext{
+        font-size: 28px;
+    }
+    .carousel-indicators button{
+        height: 7.5px!important;
+        width: 7.5px!important;
+        margin: 0 7.5px!important;
+        border-radius: 100%!important;
+    }
+}
