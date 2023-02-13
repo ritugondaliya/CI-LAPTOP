@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Platform\test
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Platform/test/Views/Home/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Platform/test/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +30,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Platform/test/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Platform/test/Views/Home/RegistrationPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb25QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Platform/test/Views/Home/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Platform/test/Views/Shared/Error.cshtml]
