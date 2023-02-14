@@ -28,9 +28,11 @@
 .col-lg-8.col-md-12.col-sm-12 {
     padding: 0;
 }
-
-
-.button{
+/*.firsrname{
+    margin-top:7% !important;
+}
+*/
+.button {
     background: #F8863400 0% 0% no-repeat padding-box;
     border: 2px solid #F88634;
     border-radius: 24px;

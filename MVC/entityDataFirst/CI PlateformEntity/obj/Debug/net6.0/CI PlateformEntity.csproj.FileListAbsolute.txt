@@ -1,0 +1,14 @@
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\bin\Debug\net6.0\CI PlateformEntity.deps.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\bin\Debug\net6.0\CI PlateformEntity.runtimeconfig.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\bin\Debug\net6.0\CI PlateformEntity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\bin\Debug\net6.0\CI PlateformEntity.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.csproj.AssemblyReference.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.AssemblyInfoInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.AssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.csproj.CoreCompileInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\refint\CI PlateformEntity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\CI PlateformEntity.genruntimeconfig.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\entityDataFirst\CI PlateformEntity\obj\Debug\net6.0\ref\CI PlateformEntity.dll

@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\Grow-Trees-On-the-path-to-environment-sustainability.png"
     },
     {
+      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\Images\\loginpage.png",
+      "PackagePath": "staticwebassets\\Images\\loginpage.png"
+    },
+    {
       "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
@@ -49,8 +53,8 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\bootstrap.bundle.min (1).js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min (1).js"
     },
     {
       "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\site.js",

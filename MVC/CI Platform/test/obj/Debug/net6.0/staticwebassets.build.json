@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rpOPZWb2MhBUV86PMBqvif+KOGdMgjizZmnSRKp1MsY=",
+  "Hash": "oFiaDlPLH5shoh6c+DtfFvpa5OWLTBm9za32PjRXIVE=",
   "Source": "test",
   "BasePath": "_content/test",
   "Mode": "Default",
@@ -238,12 +238,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\Grow-Trees-On-the-path-to-environment-sustainability-login.png"
     },
     {
-      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\Images\\loginpage.png",
       "SourceId": "test",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\",
       "BasePath": "_content/test",
-      "RelativePath": "js/bootstrap.bundle.min.js",
+      "RelativePath": "Images/loginpage.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,7 +252,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot\\Images\\loginpage.png"
+    },
+    {
+      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\bootstrap.bundle.min (1).js",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "js/bootstrap.bundle.min (1).js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min (1).js"
     },
     {
       "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\site.js",
