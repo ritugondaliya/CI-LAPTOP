@@ -114,3 +114,60 @@
         border-radius: 100%!important;
     }
 }
+
+
+
+
+
+
+
+
+/*PlatForm  Landing   Page*/
+
+
+
+.dropdown-toggle::after{
+    display:none !important; 
+
+}
+.txt{
+    font-size:14px;
+}
+.row > * {
+    padding-right: calc(var(--bs-gutter-x) * .0)!important;
+    padding-left: calc(var(--bs-gutter-x) * .0)!important;
+}
+
+.cont2 {
+    margin-left:15%;
+}
+
+/*Media query*/
+
+
+
+
+@media (min-width: 575px) {
+    .navbar-expand-md .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+@media (max-width : 576px){
+    .header2{
+        display:none !important;
+    }
+    #nav1{
+        display:none!important;
+    }
+    .cont2 {
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+}
+@media (min-width : 576px) {
+    #nav2 {
+        display: none !important;
+    }
+}
+

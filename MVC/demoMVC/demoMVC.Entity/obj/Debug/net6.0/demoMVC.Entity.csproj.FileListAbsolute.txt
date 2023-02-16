@@ -1,0 +1,14 @@
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\bin\Debug\net6.0\demoMVC.Entity.deps.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\bin\Debug\net6.0\demoMVC.Entity.runtimeconfig.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\bin\Debug\net6.0\demoMVC.Entity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\bin\Debug\net6.0\demoMVC.Entity.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.csproj.AssemblyReference.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.AssemblyInfoInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.AssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\refint\demoMVC.Entity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\demoMVC.Entity.genruntimeconfig.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Entity\obj\Debug\net6.0\ref\demoMVC.Entity.dll

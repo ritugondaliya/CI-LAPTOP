@@ -1,0 +1,15 @@
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\bin\Debug\net6.0\demoMVC.Repositories.deps.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\bin\Debug\net6.0\demoMVC.Repositories.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\bin\Debug\net6.0\demoMVC.Repositories.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.csproj.AssemblyReference.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.AssemblyInfoInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.AssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\refint\demoMVC.Repositories.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\ref\demoMVC.Repositories.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\bin\Debug\net6.0\demoMVC.Entity.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\bin\Debug\net6.0\demoMVC.Entity.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\demoMVC\demoMVC.Repositories\obj\Debug\net6.0\demoMVC.Repositories.csproj.CopyComplete
