@@ -142,18 +142,135 @@
     margin-left:15%;
 }
 
+
+/* card content */
+
+
+
+
+.apply-button {
+    background: #F8863400 0% 0% no-repeat padding-box;
+    border: 2px solid #F88634;
+    border-radius: 24px;
+    width: 40%;
+    padding: 1.5%;
+    color: #F88634;
+}
+
+
+
+
+.cardbtn {
+    border: 1px solid #fd7e14;
+    border-radius: 22px;
+}
+
+.cardbtn span {
+        color: #fd7e14;
+    }
+
+.star {
+    height: 1rem;
+    width: 1rem;
+}
+
+.rule {
+    display: flex;
+    flex-direction: row;
+}
+
+
+hr {
+    flex: 1;
+    border: none;
+    height: 2px;
+    background: black;
+}
+
+.seat {
+    font-size: 0.7rem;
+}
+
+/*.hrbtn-img {
+    background-color: white !important;
+    border: none;
+    border-radius: 22px;
+    color: #414141;
+    z-index: 1;
+}*/
+.hrbtn-img {
+    background: white;
+    opacity: 1;
+    border-radius: 18px;
+    width: fit-content;
+    padding: 0 6px;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 8rem;
+    margin-top: 12.5rem !important;
+    border: 0px;
+    color: #ADADAD;
+}
+
+
+.hrbtn {
+    background: white !important;
+    border: 0.1rem solid rgb(184, 184, 184);
+    border-radius: 22px;
+    color: #414141;
+    font-size: .8rem;
+    margin-left: 3rem;
+    margin-top: 0.2rem;
+}
+
+.img-btn {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 18px;
+    width: fit-content;
+    padding: 0 6px;
+    width: 6rem;
+    height: 2rem;
+    margin-left:15.8rem;
+    margin-top: 0rem !important;
+}
+
+    .img-btn p {
+        color: #FFFFFF;
+    }
+
+.img-btn-2 {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 19rem;
+    margin-top: 8rem !important;
+}
+
+.img-btn-3 {
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 19rem;
+    margin-top: 11rem !important;
+}
+
+
+
 /*Media query*/
 
 
 
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
     .navbar-expand-md .navbar-collapse {
         display: flex !important;
         flex-basis: auto;
     }
 }
-@media (max-width : 576px){
+@media (max-width : 575px){
     .header2{
         display:none !important;
     }
@@ -164,10 +281,21 @@
         margin-left: 3%;
         margin-top: 3%;
     }
+    #togglehide, #togglehide1, #togglehide2 {
+        display:block!important;
+    }
 }
 @media (min-width : 576px) {
     #nav2 {
         display: none !important;
     }
+    #togglehide , #togglehide1 , #togglehide2{
+        display:none!important;
+    }
+    #nav3{
+        display:none!important;
+    }
+    #header2sm{
+        display:none!important;
+    }
 }
-

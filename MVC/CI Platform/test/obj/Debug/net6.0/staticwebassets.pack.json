@@ -457,6 +457,10 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min (1).js"
     },
     {
+      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\coustom.js",
+      "PackagePath": "staticwebassets\\js\\coustom.js"
+    },
+    {
       "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

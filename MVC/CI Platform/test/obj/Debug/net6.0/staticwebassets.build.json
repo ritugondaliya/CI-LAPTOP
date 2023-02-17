@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WbJf7h9PsJdKZ5fluJ0U7MRvLl6no57lz8jeC78kr/g=",
+  "Hash": "HoDQQRAn6QYeeOJqXJ43oa55LXwzjjTV8rrPKoZgfHo=",
   "Source": "test",
   "BasePath": "_content/test",
   "Mode": "Default",
@@ -1970,6 +1970,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min (1).js"
+    },
+    {
+      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\coustom.js",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "js/coustom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\coustom.js"
     },
     {
       "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\site.js",
