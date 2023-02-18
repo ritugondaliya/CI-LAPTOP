@@ -143,6 +143,11 @@
 }
 
 
+
+
+
+
+
 /* card content */
 
 
@@ -156,9 +161,6 @@
     padding: 1.5%;
     color: #F88634;
 }
-
-
-
 
 .cardbtn {
     border: 1px solid #fd7e14;
@@ -190,15 +192,7 @@ hr {
 .seat {
     font-size: 0.7rem;
 }
-
-/*.hrbtn-img {
-    background-color: white !important;
-    border: none;
-    border-radius: 22px;
-    color: #414141;
-    z-index: 1;
-}*/
-.hrbtn-img {
+.category-btn {
     background: white;
     opacity: 1;
     border-radius: 18px;
@@ -207,23 +201,24 @@ hr {
     width: 6rem;
     height: 2rem;
     margin-left: 8rem;
-    margin-top: 12.5rem !important;
+    margin-top: 13.5rem !important;
     border: 0px;
     color: #ADADAD;
 }
 
 
-.hrbtn {
-    background: white !important;
+.date-btn {
+    background: white ;
+    opacity:1;
     border: 0.1rem solid rgb(184, 184, 184);
     border-radius: 22px;
     color: #414141;
-    font-size: .8rem;
-    margin-left: 3rem;
+    font-size: 0.8rem;
+    margin-left: 4.9rem;
     margin-top: 0.2rem;
 }
 
-.img-btn {
+.location-btn {
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 18px;
@@ -231,31 +226,73 @@ hr {
     padding: 0 6px;
     width: 6rem;
     height: 2rem;
-    margin-left:15.8rem;
-    margin-top: 0rem !important;
+    margin-left: 20.2rem;
 }
 
-    .img-btn p {
+    .location-btn p {
         color: #FFFFFF;
     }
 
-.img-btn-2 {
+.like-btn {
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
-    margin-left: 19rem;
-    margin-top: 8rem !important;
+    margin-left: 23.9rem;
+    margin-top: 9rem !important;
 }
 
-.img-btn-3 {
+.eye-btn {
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
-    margin-left: 19rem;
-    margin-top: 11rem !important;
+    margin-left: 23.9rem;
+    margin-top: 12rem !important;
 }
+.checked {
+    color: orange;
+}
+
+
+
+
+/*for list view and grid view*/
+
+
+
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.list-view .row > [class*=col-] {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.list-view .card {
+    flex-direction: row;
+}
+
+@media (max-width: 575.98px) {
+    .list-view .card {
+        flex-direction: column;
+    }
+}
+
+.list-view .card > .card-img-top {
+    width: auto;
+}
+
+.list-view .card .card-body {
+    display: inline-block;
+}
+
+
+
+
+
 
 
 
@@ -297,5 +334,25 @@ hr {
     }
     #header2sm{
         display:none!important;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg, .header2{
+        flex-wrap: nowrap!important;
+        justify-content: flex-start!important;
+        padding-left: 6%!important;
+        padding-right: 6%!important;
+    }
+}
+@media (min-width : 768px){
+    #toggle-container {
+        padding-left: 6.5%;
+        padding-right: 6.5%;
+    }
+}
+@media (max-width : 768px) {
+    #toggle-container {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }

@@ -12,6 +12,9 @@
     <script src="~/js/coustom.js" />
     <script src="JavaScript\bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="~/css/index.css" />
     <title>PlatFormLandingPage</title>
     <style>
@@ -21,61 +24,13 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-
-        /* for star rating */
-
-        .checked {
-            color: orange;
-        }  
-        
-        /*for list view and grid view*/
-         
-        * {
-            box-sizing: border-box;
-        }
-
-        /* Create two equal columns that floats next to each other */
-        .column {
-            float: left;
-            width: 33%;
-            padding: 10px;
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        /* Style the buttons */
-        .btn {
-            border: none;
-            outline: none;
-            padding: 12px 16px;
-            background-color: #f1f1f1;
-            cursor: pointer;
-        }
-
-            .btn:hover {
-                background-color: #ddd;
-            }
-
-            .btn.active {
-                background-color: #666;
-                color: white;
-            }
-    </style>
+   
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-lg-1 d-md-block d-sm-block">
-        </div>
-        <div class="col-lg-10 col-md-12 col-sm-12" >
+        <div>
             
-
-            <nav class="navbar navbar-expand-lg navbar-expand-sm p-0" id="nav1">
+             <nav class="navbar navbar-expand-lg navbar-expand-sm" id="nav1">
                 <div class="container-fluid p-0">
                     @*<a class="navbar-brand" href="#">Navbar</a>*@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,13 +81,11 @@
                     </div>
                 </div>
             </nav>      
+             
 
-
-           @* small devices*@
-
-
-
-            <nav class="navbar navbar-expand-lg navbar-expand-sm p-0" id="nav2">
+             @* small devices*@
+             
+             <nav class="navbar navbar-expand-lg navbar-expand-sm p-0" id="nav2">
                 <div class="container-fluid p-0">
 
 
@@ -230,10 +183,9 @@
                     </div>
                 </div>
             </nav>
-
-
-
-            <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header2sm">
+             
+            
+             <nav class="navbar navbar-expand-lg bg-body-tertiary" id="header2sm">
                 <div class="container-fluid">
                     <form class="d-flex" role="search">
                                 <i class="bi bi-search my-auto" style="opacity:50%"></i>
@@ -302,12 +254,8 @@
                 </div>
             </nav>
 
-
-
-
-
-
-            <div class="d-flex justify-content-between border-top border-bottom header2">
+             
+             <div class="d-flex justify-content-between border-top border-bottom header2">
                 <div class=" p-0 ">
                     <nav class="navbar ">
                         <div class="container-fluid me-auto">
@@ -318,7 +266,7 @@
                         </div>
                     </nav>
                 </div>
-                <div class=" p-0 my-auto d-flex m-0" >
+                <div class=" p-0 my-auto d-flex m-0 ms-auto" >
                    
                        
                             <div class="me-0 ms-5">
@@ -394,463 +342,118 @@
                     
                 </div>
         </div>
-
-
+        
+        
             @*LIST VIWE AND GRID VIEW8*@
 
-
-
-
-            <div id="btnContainer" class="d-flex justify-content-end mt-2">
+            <div id="toggle-container" class="d-flex justify-content-end mt-2">
                 <p class="me-auto ms-1">Explore N mission</p>
-                <button class="btn me-2" onclick="listView()"><i class="fa fa-bars"></i></button>
-                <button class="btn active me-2" onclick="gridView()"><i class="fa fa-th-large"></i></button>
+                <button class="btn  btn-grid"><i class="fa fa-th-large"></i></button>
+                <button class="btn  btn-list"><i class="fa fa-bars"></i></button>
 
             </div>
             <br>
 
-            <div class="row">
-                <div class="column" style="background-color:#aaa;">
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                         <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                         <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                         <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex" >
-                               <span class="me-auto fs-6">Tree Canada</span>
-                               <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                               </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
+            <div class="container grid-container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
+                            <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                            <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                            <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+                            <button class="category-btn position-absolute">Enviroment</button>
+                            <div class="card-body p-0 mt-3">
+                                <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
+                                <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="d-flex ps-3 pe-3">
+                                    <span class="me-auto fs-6">Tree Canada</span>
+                                    <span class="me-2">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </span>
                                 </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
+                                <br />
+                                <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                                <hr class="position-relative">
+                                <div class="d-flex flex-row justify-content-between ps-3 pe-3">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
+                                        <div class="d-flex flex-column ms-2">
+                                            <p class="d-inline mb-0 pt-2">10</p>
+                                            <p class="seat">Seats Left</p>
+                                        </div>
                                     </div>
 
-                                </div>
+                                    <div class="d-flex flex-row align-items-center">
+                                        <img src="../Images/deadline.png" height="33px" width="33px" alt="">
+                                        <div class="d-flex flex-column ms-2">
+                                            <p class="d-inline mb-0 pt-2">12/03/2023 </p>
+                                            <p class="seat">Deadline</p>
+                                        </div>
 
+                                    </div>
+
+                                </div>
+                                <hr class="position-relative mb-4" />
+                                <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
                             </div>
-                            <hr class="position-relative"/>
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://picsum.photos/362/180" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://picsum.photos/362/180" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://picsum.photos/362/180" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://picsum.photos/362/180" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                            <img class="card-img-top" src="https://picsum.photos/362/180" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="column" style="background-color:#bbb;">
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                        <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                    </div>
-
-                        </div>
-                   
-                <div class="column" style="background-color:#bbb;">
-
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                        <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                    </div>
-                </div>
             </div>
-
-            <div class="row">
-                <div class="column" style="background-color:#ccc;">
-            <div class="card" style="width: 22rem;">
-                <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                <button class="hrbtn-img position-absolute">Enviroment</button>
-                <div class="card-body">
-                    <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex">
-                        <span class="me-auto fs-6">Tree Canada</span>
-                        <span class="me-2">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
-                    </div>
-                    <br />
-                    <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                    <hr class="position-relative">
-                    <div class="d-flex flex-row justify-content-between ">
-                        <div class="d-flex flex-row align-items-center">
-                            <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                            <div class="d-flex flex-column ms-2">
-                                <p class="d-inline mb-0 pt-2">10</p>
-                                <p class="seat">Seats Left</p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-row align-items-center">
-                            <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                            <div class="d-flex flex-column ms-2">
-                                <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                <p class="seat">Deadline</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <hr class="position-relative" />
-                    <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                </div>
-            </div>
-                </div>
-                <div class="column" style="background-color:#ddd;">
-            <div class="card" style="width: 22rem;">
-                <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                <button class="hrbtn-img position-absolute">Enviroment</button>
-                <div class="card-body">
-                    <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex">
-                        <span class="me-auto fs-6">Tree Canada</span>
-                        <span class="me-2">
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
-                        </span>
-                    </div>
-                    <br />
-                    <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                    <hr class="position-relative">
-                    <div class="d-flex flex-row justify-content-between ">
-                        <div class="d-flex flex-row align-items-center">
-                            <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                            <div class="d-flex flex-column ms-2">
-                                <p class="d-inline mb-0 pt-2">10</p>
-                                <p class="seat">Seats Left</p>
-                            </div>
-                        </div>
-
-                        <div class="d-flex flex-row align-items-center">
-                            <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                            <div class="d-flex flex-column ms-2">
-                                <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                <p class="seat">Deadline</p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <hr class="position-relative" />
-                    <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                </div>
-            </div>
-                </div>
-                <div class="column" style="background-color:#ddd;">
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                         <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                         <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                         <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex" >
-                               <span class="me-auto fs-6">Tree Canada</span>
-                               <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                               </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative"/>
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="column" style="background-color:#ccc;">
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                        <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="column" style="background-color:#ddd;">
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                        <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="column" style="background-color:#ddd;">
-                    <div class="card" style="width: 22rem;">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top  position-relative" alt="...">
-                        <button class="img-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="img-btn-2 position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="img-btn-3 position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="hrbtn-img position-absolute">Enviroment</button>
-                        <div class="card-body">
-                            <h5 class="card-title mt-1">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="hrbtn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="col-lg-1 d-md-block d-sm-block">
-            </div>
+        
         </div>
-    </div>
+    
 
 
     
@@ -858,36 +461,82 @@
         
 
         <script>
-            // Get the elements with class="column"
-            var elements = document.getElementsByClassName("column");
+          
+        //grid and gridList View layout
 
-            // Declare a loop variable
-            var i;
+        function showList(e) {
+            var $gridCont = $('.grid-container');
+            e.preventDefault();
+            $gridCont.hasClass('list-view') ? $gridCont.removeClass('list-view') : $gridCont.addClass('list-view');
+        }
+        function gridList(e) {
+            var $gridCont = $('.grid-container')
+            e.preventDefault();
+            $gridCont.removeClass('list-view');
+        }
 
-            // List View
-            function listView() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.width = "100%";
-                }
-            }
+        $(document).on('click', '.btn-grid', gridList);
+        $(document).on('click', '.btn-list', showList);
 
-            // Grid View
-            function gridView() {
-                for (i = 0; i < elements.length; i++) {
-                    elements[i].style.width = "33%";
-                }
-            }
 
-            /* Optional: Add active class to the current button (highlight it) */
-            var container = document.getElementById("btnContainer");
-            var btns = container.getElementsByClassName("btn");
-            for (var i = 0; i < btns.length; i++) {
-                btns[i].addEventListener("click", function () {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
-            }
+
+
+        // list view seeting element 
+
+        function showList(e) {
+            var $gridCont = $('.grid-container');
+            e.preventDefault();
+            $gridCont.hasClass('list-view') ? $gridCont.removeClass('list-view') : $gridCont.addClass('list-view');
+        }
+        function gridList(e) {
+            var $gridCont = $('.grid-container')
+            e.preventDefault();
+            $gridCont.removeClass('list-view');
+        }
+
+        $(document).on('click', '.btn-grid', gridList);
+        $(document).on('click', '.btn-list', showList);
+
+
+
+        function grid() {
+            let card = document.querySelectorAll(".card");
+
+            let cardBody = document.querySelectorAll(".card-body");
+
+            let ratings = document.querySelector(".ratings");
+            let star = document.querySelector(".star");
+            let applyButton = document.querySelector(".apply-btn");
+
+            ratings.classList.add("justify-content-between");
+            ratings.classList.remove("ms-1");
+
+            star.classList.remove("ms-2");
+            applyButton.classList.remove("ms-2");
+
+        }
+
+
+
+
+
+        function list() {
+            let card = document.querySelectorAll(".card");
+
+            let cardBody = document.querySelectorAll(".card-body");
+
+            let ratings = document.querySelector(".ratings");
+            let star = document.querySelector(".star");
+            let applyButton = document.querySelector(".apply-btn");
+
+            ratings.classList.remove("justify-content-between");
+            ratings.classList.add("ms-1");
+
+            star.classList.add("ms-2");
+            applyButton.classList.add("ms-2");
+
+
+        }
         </script>
 
     
@@ -896,29 +545,6 @@
 
                
 </body>
-
-<script>
-
-    
-
-    let nav2 = document.querySelector(".nav2-menu-button");
-    console.log(nav2);
-    
-    function openFilter() {
-
-
-        document.getElementById("header2sm").style.display = "none";
-        //document.getElementById("navbarSupportedContent").style.display = "none";
-        //document.getElementById("searchBar").style.display = "none";
-        //document.getElementById("FilterSupportedContent").style.marginLeft = "250px";
-    }
-
-    function closeFilter() {
-        document.getElementById("header2sm").style.display = "block";
-    //  document.getElementById("searchBar").style.display = "block";
-    //  document.getElementById("FilterSupportedContent").style.marginLeft = "250px";
-    //}
-</script>
 
 
 </html>
