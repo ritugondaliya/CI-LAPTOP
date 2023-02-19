@@ -197,25 +197,28 @@ hr {
     opacity: 1;
     border-radius: 18px;
     width: fit-content;
-    padding: 0 6px;
-    width: 6rem;
-    height: 2rem;
-    margin-left: 8rem;
-    margin-top: 13.5rem !important;
+    padding: 0 1%;
+    width: 29%;
+    height: 5%;
+    margin-left: 37%;
+    margin-top: 58% !important;
     border: 0px;
     color: #ADADAD;
 }
 
 
 .date-btn {
-    background: white ;
-    opacity:1;
+    background: white;
+    opacity: 1;
     border: 0.1rem solid rgb(184, 184, 184);
     border-radius: 22px;
     color: #414141;
-    font-size: 0.8rem;
-    margin-left: 4.9rem;
-    margin-top: 0.2rem;
+    font-size: 81%;
+    margin-left: 16%;
+    margin-top: 1%;
+    height: 4%;
+    width: 67%;
+    z-index:1;
 }
 
 .location-btn {
@@ -223,10 +226,10 @@ hr {
     opacity: 0.5;
     border-radius: 18px;
     width: fit-content;
-    padding: 0 6px;
-    width: 6rem;
-    height: 2rem;
-    margin-left: 20.2rem;
+    padding: 0%;
+    width: 26%;
+    height: 5%;
+    margin-left: 74%;
 }
 
     .location-btn p {
@@ -238,8 +241,10 @@ hr {
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
-    margin-left: 23.9rem;
-    margin-top: 9rem !important;
+    margin-left: 89%;
+    margin-top: 33% !important;
+    width: 11% !important;
+    height: 6%;
 }
 
 .eye-btn {
@@ -247,8 +252,10 @@ hr {
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
-    margin-left: 23.9rem;
-    margin-top: 12rem !important;
+    margin-left: 89%;
+    margin-top: 47% !important;
+    width: 11% !important;
+    height: 6%;
 }
 .checked {
     color: orange;
@@ -300,42 +307,38 @@ hr {
 
 
 
+@media (min-width: 576px) {
+    .navbar-expand-sm {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
 
 @media (min-width: 576px) {
-    .navbar-expand-md .navbar-collapse {
-        display: flex !important;
-        flex-basis: auto;
+    .offcanva-btn, .offcanva, .logo, .profilePhoto-sm, .profileName-sm,
+    .search-icon, .bell-icon, .filter-sm {
+        display: none;
+    }
+
+    .storiesPolicy {
+        padding-left: 15%;
+    }
+
+    .profile-photo-name {
+        padding-right: 4.5%;
     }
 }
-@media (max-width : 575px){
-    .header2{
-        display:none !important;
-    }
-    #nav1{
-        display:none!important;
-    }
-    .cont2 {
-        margin-left: 3%;
-        margin-top: 3%;
-    }
-    #togglehide, #togglehide1, #togglehide2 {
-        display:block!important;
+
+@media (max-width: 575px) {
+    .collaps-btn, .collaps, .filter-lg {
+        display: none;
     }
 }
-@media (min-width : 576px) {
-    #nav2 {
-        display: none !important;
-    }
-    #togglehide , #togglehide1 , #togglehide2{
-        display:none!important;
-    }
-    #nav3{
-        display:none!important;
-    }
-    #header2sm{
-        display:none!important;
-    }
-}
+
+
+
+
+
 @media (min-width: 992px) {
     .navbar-expand-lg, .header2{
         flex-wrap: nowrap!important;
