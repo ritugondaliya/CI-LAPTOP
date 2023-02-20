@@ -457,8 +457,12 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min (1).js"
     },
     {
-      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\coustom.js",
-      "PackagePath": "staticwebassets\\js\\coustom.js"
+      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
     },
     {
       "Id": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\site.js",

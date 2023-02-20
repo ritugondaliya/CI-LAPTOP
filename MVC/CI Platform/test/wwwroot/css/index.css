@@ -144,14 +144,124 @@
 
 
 
+/*check box listing */
 
+.filter-list {
+    /* padding:6px 10px; */
+    background-color: white;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.filter-close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #888;
+}
+
+.filters-section11 {
+    margin-top: 2%;
+}
 
 
 
 /* card content */
 
+/* list view css setting*/
 
+.list-view .card-img-top{
+    position:relative;
+}
 
+.list-view .location-btn {
+    position: absolute  ;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 18px;
+    width: fit-content;
+    padding: 0%;
+    width: 8%;
+    height: 10%;
+    margin-left: 19.2%;
+}
+.list-view .like-btn {
+    position: absolute;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 23.2%;
+    margin-top: 17%;
+    width: 4% ;
+    height: 12%;
+}
+.list-view .eye-btn {
+    position: absolute!important;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: fit-content;
+    margin-left: 23.2%;
+    margin-top: 23%!important ;
+    width: 4%!important;
+    height: 12%;
+}
+.list-view .date-btn {
+    margin-left: 16%;
+    margin-top: 0.3%;
+    height: 7%;
+    width: 29%;
+}
+.listview .apply-button {
+    width: 30%;
+    padding: 1%;
+}
+
+@media (max-width :1400px) and (min-width : 1200px){
+    .list-view .location-btn {
+        margin-left: 23.4%;
+    }
+
+    .list-view .like-btn {
+        margin-left: 27.4%;
+    }
+
+    .list-view .eye-btn {
+        margin-left: 27.4%;
+    }
+
+}
+@media (max-width :1200px) and (min-width : 992px){
+    .list-view .location-btn {
+        width: 9%;
+        height: 10%;
+        margin-left: 28.3%;
+    }
+
+    .list-view .like-btn {
+        margin-left: 33.2%;
+        margin-top: 21%;
+        
+    }
+
+    .list-view .eye-btn {
+        margin-left: 33.2%;
+        margin-top: 28% !important;
+   
+    }
+}
+@media (max-width : 992px){
+    .btn-grid , .btn-list{
+        display:none;
+    }
+}
+
+/* grid view*/
 
 .apply-button {
     background: #F8863400 0% 0% no-repeat padding-box;
@@ -218,10 +328,15 @@ hr {
     margin-top: 1%;
     height: 4%;
     width: 67%;
-    z-index:1;
+    z-index: 1;
+    font-size: 73%;
+}
+.card-img-top{
+    position:relative;
 }
 
 .location-btn {
+    position: absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 18px;
@@ -237,17 +352,19 @@ hr {
     }
 
 .like-btn {
+    position:absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
     margin-left: 89%;
-    margin-top: 33% !important;
-    width: 11% !important;
+    margin-top: 33%;
+    width: 11%;
     height: 6%;
 }
 
 .eye-btn {
+    position:absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;

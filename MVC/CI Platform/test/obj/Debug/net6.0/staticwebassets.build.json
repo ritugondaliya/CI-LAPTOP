@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HoDQQRAn6QYeeOJqXJ43oa55LXwzjjTV8rrPKoZgfHo=",
+  "Hash": "1ITECwtM1q2wjd7nEudwYjNxl8XEHP0hTI3Rx5TGNPo=",
   "Source": "test",
   "BasePath": "_content/test",
   "Mode": "Default",
@@ -1972,12 +1972,12 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.bundle.min (1).js"
     },
     {
-      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\coustom.js",
+      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\custom.js",
       "SourceId": "test",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\",
       "BasePath": "_content/test",
-      "RelativePath": "js/coustom.js",
+      "RelativePath": "js/custom.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1986,7 +1986,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\coustom.js"
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
+    },
+    {
+      "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\popper.min.js",
+      "SourceId": "test",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\",
+      "BasePath": "_content/test",
+      "RelativePath": "js/popper.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
     },
     {
       "Identity": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\CI Platform\\test\\wwwroot\\js\\site.js",

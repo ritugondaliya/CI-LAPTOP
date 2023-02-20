@@ -8,29 +8,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="~/css/bootstrap.min.css" rel="stylesheet" text="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="~/js/coustom.js" />
-    <script src="~/js/bootstrap.bundle.min (1).js"></script>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="~/css/index.css" />
+
+
     <title>PlatFormLandingPage</title>
-    <style>
-        .ritu {
-            display: flex;
-            justify-content: end;
-        }
-    </style>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   
+    <link rel="stylesheet" href="~/css/index.css" />
 </head>
 
 <body>
-        <div>
+    <div>
 
-            <div class="d-flex p-1">
+        <div class="d-flex p-1">
             <div class="d-flex ms-1 mt-2 storiesPolicy">
                 <a class="nav-link" href="#">Storis</a>
                 <a class="nav-link ms-4" href="#" role="button" data-bs-toggle="dropdown"
@@ -65,8 +66,8 @@
                 </div>
             </div>
         </div>
-            
-            <div class="d-flex justify-content-between border-top border-bottom header2">
+
+        <div class="d-flex justify-content-between border-top border-bottom header2">
             <div class="">
                 <nav class="navbar">
                     <div class="container-fluid me-auto">
@@ -86,11 +87,19 @@
                            aria-expanded="false" style="font-family: Roboto">
                             Country <i class="bi bi-chevron-down ms-5 mt-2 my-auto"></i>
                         </a>
-
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another </a></li>
-                            <li><a class="dropdown-item" href="#">Something </a></li>
+                        <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="India" name="India" id=""
+                                       class="checkbox ritu ms-3  ">India
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="USA" name="USA"
+                                       class="ms-3 checkbox ">USA
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Canada" name="Canada"
+                                       class="ms-3 checkbox ">Canada
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -102,10 +111,19 @@
                             City <i class="bi bi-chevron-down ms-5 mt-2"></i>
                         </a>
 
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another </a></li>
-                            <li><a class="dropdown-item" href="#">Something </a></li>
+                        <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Ahmdabad" name="Ahmdabad" id=""
+                                       class="checkbox ritu ms-3  ">Ahmdabad
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Surat" name="Surat"
+                                       class="ms-3 checkbox ">Surat
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Rajkot" name="Rajkot"
+                                       class="ms-3 checkbox ">Rajkot
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -117,10 +135,19 @@
                             Theme <i class="bi bi-chevron-down ms-5 mt-2"></i>
                         </a>
 
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another </a></li>
-                            <li><a class="dropdown-item" href="#">Something </a></li>
+                        <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Ahmdabad" name="Ahmdabad" id=""
+                                       class="checkbox ritu ms-3  ">Ahmdabad
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Surat" name="Surat"
+                                       class="ms-3 checkbox ">Surat
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="Rajkot" name="Rajkot"
+                                       class="ms-3 checkbox ">Rajkot
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -132,10 +159,19 @@
                             Skill <i class="bi bi-chevron-down ms-5 mt-2"></i>
                         </a>
 
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another </a></li>
-                            <li><a class="dropdown-item" href="#">Something </a></li>
+                        <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="mathematics" name="mathematics" id=""
+                                       class="checkbox ms-3  ">mathematics
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="agriculture" name="agriculture"
+                                       class="ms-3 checkbox ">agriculture
+                            </li>
+                            <li class="dropdown-checkbox">
+                                <input type="checkbox" value="reading" name="reading"
+                                       class="ms-3 checkbox ">reading
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -159,10 +195,19 @@
                                         aria-expanded="false">
                                     Country <i class="bi bi-chevron-down ms-1 mt-2 my-auto"></i>
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another </a></li>
-                                    <li><a class="dropdown-item" href="#">Something </a></li>
+                                <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="India" name="India" id=""
+                                               class="checkbox ritu ms-3  ">India
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="USA" name="USA"
+                                               class="ms-3 checkbox ">USA
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="Canada" name="Canada"
+                                               class="ms-3 checkbox ">Canada
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -172,10 +217,19 @@
                                         aria-expanded="false">
                                     City <i class="bi bi-chevron-down ms-1 mt-2 my-auto"></i>
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another </a></li>
-                                    <li><a class="dropdown-item" href="#">Something </a></li>
+                                <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="Ahmdabad" name="Ahmdabad" id=""
+                                               class="checkbox ritu ms-3  ">Ahmdabad
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="Surat" name="Surat"
+                                               class="ms-3 checkbox ">Surat
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="Rajkot" name="Rajkot"
+                                               class="ms-3 checkbox ">Rajkot
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -185,10 +239,19 @@
                                         aria-expanded="false">
                                     Theme <i class="bi bi-chevron-down ms-1 mt-2 my-auto"></i>
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another </a></li>
-                                    <li><a class="dropdown-item" href="#">Something </a></li>
+                                <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="India" name="India" id=""
+                                               class="checkbox ritu ms-3  ">India
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="USA" name="USA"
+                                               class="ms-3 checkbox ">USA
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="Canada" name="Canada"
+                                               class="ms-3 checkbox ">Canada
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -198,10 +261,19 @@
                                         aria-expanded="false">
                                     Skill <i class="bi bi-chevron-down ms-1 mt-2 my-auto"></i>
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another </a></li>
-                                    <li><a class="dropdown-item" href="#">Something </a></li>
+                                <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="navbarDropdownMenuLink">
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="mathematics" name="mathematics" id=""
+                                               class="checkbox ritu ms-3  ">mathematics
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="agriculture" name="agriculture"
+                                               class="ms-3 checkbox ">agriculture
+                                    </li>
+                                    <li class="dropdown-checkbox">
+                                        <input type="checkbox" value="reading" name="reading"
+                                               class="ms-3 checkbox ">reading
+                                    </li>
                                 </ul>
                             </div>
                         </li>
@@ -210,71 +282,29 @@
             </div>
         </div>
 
-            @*LIST VIWE AND GRID VIEW8*@
+        @*LIST VIWE AND GRID VIEW8*@
+        <div d-flex justify-content-end>
+        <div class="filters-section11 d-flex align-items-center flex-wrap justify-content-center">
+            <span class="filter-list  ps-3 pe-1 me-2 " style="margin-top:2%;">Clear All<button class="filter-close-button" id="clearbutton">&times;</button></span>
+        </div>
+        </div>
 
-            <div id="toggle-container" class="d-flex justify-content-end mt-2">
-                <p class="me-auto ms-1">Explore N mission</p>
-                <button class="btn  btn-grid"><i class="fa fa-th-large"></i></button>
-                <button class="btn  btn-list"><i class="fa fa-bars"></i></button>
+        <div id="toggle-container" class="d-flex justify-content-end mt-2">
+            <p class="me-auto ms-1">Explore N mission</p>
+            <button class="btn btn-grid"><i class="fa fa-th-large "></i></button>
+            <button class="btn btn-list"><i class="fa fa-bars"></i></button>
 
-            </div>
-            <br>
+        </div>
+        <br>
 
-            <div class="container grid-container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                            <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
-                            <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                            <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                            <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                            <button class="category-btn position-absolute">Enviroment</button>
-                            <div class="card-body p-0 mt-3">
-                                <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
-                                <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <div class="d-flex ps-3 pe-3">
-                                    <span class="me-auto fs-6">Tree Canada</span>
-                                    <span class="me-2">
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
-                                        <span class="fa fa-star"></span>
-                                    </span>
-                                </div>
-                                <br />
-                                <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                                <hr class="position-relative">
-                                <div class="d-flex flex-row justify-content-between ps-3 pe-3">
-                                    <div class="d-flex flex-row align-items-center">
-                                        <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                        <div class="d-flex flex-column ms-2">
-                                            <p class="d-inline mb-0 pt-2">10</p>
-                                            <p class="seat">Seats Left</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="d-flex flex-row align-items-center">
-                                        <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                        <div class="d-flex flex-column ms-2">
-                                            <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                            <p class="seat">Deadline</p>
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                                <hr class="position-relative mb-4" />
-                                <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
-                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+        <div class="container grid-container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top" alt="...">
+                        <button class="location-btn " type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                        <button class="like-btn" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                        <button class="eye-btn" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
                         <button class="category-btn position-absolute">Enviroment</button>
                         <div class="card-body p-0 mt-3">
                             <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
@@ -313,211 +343,258 @@
                             </div>
                             <hr class="position-relative mb-4" />
                             <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
-                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="category-btn position-absolute">Enviroment</button>
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex ps-3 pe-3">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative mb-4" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
-                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="category-btn position-absolute">Enviroment</button>
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex ps-3 pe-3">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative mb-4" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
-                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="category-btn position-absolute">Enviroment</button>
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex ps-3 pe-3">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative mb-4" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="card">
-                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
-                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
-                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
-                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
-                        <button class="category-btn position-absolute">Enviroment</button>
-                        <div class="card-body p-0 mt-3">
-                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
-                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class="d-flex ps-3 pe-3">
-                                <span class="me-auto fs-6">Tree Canada</span>
-                                <span class="me-2">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star"></span>
-                                    <span class="fa fa-star"></span>
-                                </span>
-                            </div>
-                            <br />
-                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
-                            <hr class="position-relative">
-                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">10</p>
-                                        <p class="seat">Seats Left</p>
-                                    </div>
-                                </div>
-
-                                <div class="d-flex flex-row align-items-center">
-                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
-                                    <div class="d-flex flex-column ms-2">
-                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
-                                        <p class="seat">Deadline</p>
-                                    </div>
-
-                                </div>
-
-                            </div>
-                            <hr class="position-relative mb-4" />
-                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
-                        </div>
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
+                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+                        <button class="category-btn position-absolute">Enviroment</button>
+                        <div class="card-body p-0 mt-3">
+                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
+                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex ps-3 pe-3">
+                                <span class="me-auto fs-6">Tree Canada</span>
+                                <span class="me-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </span>
+                            </div>
+                            <br />
+                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                            <hr class="position-relative">
+                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">10</p>
+                                        <p class="seat">Seats Left</p>
+                                    </div>
+                                </div>
 
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
+                                        <p class="seat">Deadline</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr class="position-relative mb-4" />
+                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
+                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+                        <button class="category-btn position-absolute">Enviroment</button>
+                        <div class="card-body p-0 mt-3">
+                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
+                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex ps-3 pe-3">
+                                <span class="me-auto fs-6">Tree Canada</span>
+                                <span class="me-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </span>
+                            </div>
+                            <br />
+                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                            <hr class="position-relative">
+                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">10</p>
+                                        <p class="seat">Seats Left</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
+                                        <p class="seat">Deadline</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr class="position-relative mb-4" />
+                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
+                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+                        <button class="category-btn position-absolute">Enviroment</button>
+                        <div class="card-body p-0 mt-3">
+                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
+                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex ps-3 pe-3">
+                                <span class="me-auto fs-6">Tree Canada</span>
+                                <span class="me-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </span>
+                            </div>
+                            <br />
+                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                            <hr class="position-relative">
+                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">10</p>
+                                        <p class="seat">Seats Left</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
+                                        <p class="seat">Deadline</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr class="position-relative mb-4" />
+                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
+                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+                        <button class="category-btn position-absolute">Enviroment</button>
+                        <div class="card-body p-0 mt-3">
+                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
+                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex ps-3 pe-3">
+                                <span class="me-auto fs-6">Tree Canada</span>
+                                <span class="me-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </span>
+                            </div>
+                            <br />
+                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                            <hr class="position-relative">
+                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">10</p>
+                                        <p class="seat">Seats Left</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
+                                        <p class="seat">Deadline</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr class="position-relative mb-4" />
+                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="~/Images/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top position-relative" alt="...">
+                        <button class="location-btn position-absolute" type="button"><img src="~/images/pin.png" class="d-inline me-1" /><p class="d-inline">Toronto</p></button>
+                        <button class="like-btn position-absolute" type="button"><img src="~/images/heart.png" width="20px" height="20px" /></button>
+                        <button class="eye-btn position-absolute" type="button"><img src="~/images/eye.png" width="20px" height="20px" /></button>
+                        <button class="category-btn position-absolute">Enviroment</button>
+                        <div class="card-body p-0 mt-3">
+                            <h5 class="card-title mt-1 ps-3 pe-3">Grow Trees - On the path to environment sustainability</h5>
+                            <p class="card-text ps-3 pe-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="d-flex ps-3 pe-3">
+                                <span class="me-auto fs-6">Tree Canada</span>
+                                <span class="me-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </span>
+                            </div>
+                            <br />
+                            <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                            <hr class="position-relative">
+                            <div class="d-flex flex-row justify-content-between ps-3 pe-3">
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/Seats-left.png" alt="" class="" height="30px" width="30px">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">10</p>
+                                        <p class="seat">Seats Left</p>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex flex-row align-items-center">
+                                    <img src="../Images/deadline.png" height="33px" width="33px" alt="">
+                                    <div class="d-flex flex-column ms-2">
+                                        <p class="d-inline mb-0 pt-2">12/03/2023 </p>
+                                        <p class="seat">Deadline</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr class="position-relative mb-4" />
+                            <button type="button" class="apply-button d-flex justify-content-center mx-auto my-auto mb-4">Apply<i class="bi bi-arrow-right ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        
+
         </div>
-    
+
+    </div>
 
 
-    
-    
-        
 
-        <script>
-          
+
+
+
+
+    <script>
+
         //grid and gridList View layout
 
         function showList(e) {
@@ -537,7 +614,7 @@
 
 
 
-        // list view seeting element 
+        // list view seeting element
 
         function showList(e) {
             var $gridCont = $('.grid-container');
@@ -552,8 +629,6 @@
 
         $(document).on('click', '.btn-grid', gridList);
         $(document).on('click', '.btn-list', showList);
-
-
 
         function grid() {
             let card = document.querySelectorAll(".card");
@@ -571,11 +646,6 @@
             applyButton.classList.remove("ms-2");
 
         }
-
-
-
-
-
         function list() {
             let card = document.querySelectorAll(".card");
 
@@ -591,15 +661,26 @@
             star.classList.add("ms-2");
             applyButton.classList.add("ms-2");
 
-
         }
-        </script>
 
-    
 
-       
 
-               
+
+    </script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/bootstrap.bundle.min (1).js"></script>
+    <script src="~/js/popper.min.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+
 </body>
 
 
