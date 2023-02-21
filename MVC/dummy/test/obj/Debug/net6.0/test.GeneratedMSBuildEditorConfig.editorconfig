@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = test
+build_property.RootNamespace = test
+build_property.ProjectDir = C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\dummy\test\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\dummy\test
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/NoMissionFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb01pc3Npb25Gb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/PlatFormLandingPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQbGF0Rm9ybUxhbmRpbmdQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/RegistrationPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXRpb25QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Home/VolunteeringMissionPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWb2x1bnRlZXJpbmdNaXNzaW9uUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Shared/other.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXG90aGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/dummy/test/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ykmsxw2c8j

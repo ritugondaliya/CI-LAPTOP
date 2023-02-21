@@ -1,0 +1,31 @@
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\appsettings.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.staticwebassets.runtime.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.exe
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.deps.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.runtimeconfig.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.csproj.AssemblyReference.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.AssemblyInfoInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.AssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.csproj.CoreCompileInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.RazorAssemblyInfo.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.RazorAssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.CI Application.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.build.CI Application.props
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CI Application.props
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CI Application.props
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\scopedcss\bundle\CI Application.styles.css
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\scopedcss\projectbundle\CI Application.bundle.scp.css
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\refint\CI Application.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.genruntimeconfig.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\ref\CI Application.dll
