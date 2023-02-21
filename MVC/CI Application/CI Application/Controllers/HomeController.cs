@@ -45,7 +45,11 @@ namespace CI_Application.Controllers
         public IActionResult NoMissionFound()
         {
             return View();
+        }public IActionResult VolunteeringMissionPage()
+        {
+            return View();
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

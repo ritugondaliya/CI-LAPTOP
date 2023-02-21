@@ -4,27 +4,34 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.centerRegistrationForm{
+
+.centerRegistrationForm {
     padding: 10%;
 }
-.row{
-    margin:0;
+
+.row {
+    margin: 0;
 }
-.centerLogin{
+
+.centerLogin {
     margin-top: 20%;
     padding: 10%;
 }
-.centerForgotPass{
+
+.centerForgotPass {
     margin-top: 20%;
     padding: 2%;
 }
-.centerResetPass{
+
+.centerResetPass {
     margin-top: 16%;
     padding: 5%;
 }
+
 .container {
     padding: 0;
 }
+
 .col-lg-8.col-md-12.col-sm-12 {
     padding: 0;
 }
@@ -40,78 +47,92 @@
     padding: 1.5%;
     color: #F88634;
 }
-.link1{
+
+.link1 {
     text-decoration: none;
-    color:#414141;
-}
-.link2{
-    text-decoration: none;
-}
-.pp{
     color: #414141;
 }
-.createacc, .link1{
+
+.link2 {
+    text-decoration: none;
+}
+
+.pp {
+    color: #414141;
+}
+
+.createacc, .link1 {
     font-size: 14px;
 }
-.smtext{
+
+.smtext {
     font-size: 14px;
     text-align: left;
 }
-.maintext{
+
+.maintext {
     font-size: 35px;
     text-align: left;
 }
-.carousel-indicators button{
-    height: 10px!important ;
-    width: 10px!important;
-    margin: 0 10px!important;
-    border-radius: 100%!important;
-    
+
+.carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100% !important;
 }
 
 /* loginpage, ForgotPassPage, ResetPassPage, RegistrationPage */
 
-@media screen and (max-width:992px){
-    .centerLogin, .centerResetPass, .centerForgotPass, .centerRegistrationForm{
+@media screen and (max-width:992px) {
+    .centerLogin, .centerResetPass, .centerForgotPass, .centerRegistrationForm {
         margin-top: 0%;
         top: 0% !important;
         padding: 0;
     }
 }
-@media screen and (min-width:992px){
+
+@media screen and (min-width:992px) {
     .carousel-inner img {
         height: 100vh;
     }
-    .centerLogin, .centerResetPass, .centerForgotPass, .centerRegistrationForm{
+
+    .centerLogin, .centerResetPass, .centerForgotPass, .centerRegistrationForm {
         padding: 10px;
     }
 }
+
 @media screen and (max-width:576px) {
-    .smtext{
+    .smtext {
         display: none;
     }
-    .maintext{
+
+    .maintext {
         font-size: 15px;
     }
-    .carousel-indicators button{
-        height: 5px!important;
-        width: 5px!important;
-        margin: 0 5px!important;
-        border-radius: 100%!important;
+
+    .carousel-indicators button {
+        height: 5px !important;
+        width: 5px !important;
+        margin: 0 5px !important;
+        border-radius: 100% !important;
     }
 }
-@media screen and (min-width:576px) and (max-width:992px){
-    .smtext{
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .smtext {
         font-size: 10px;
     }
-    .maintext{
+
+    .maintext {
         font-size: 28px;
     }
-    .carousel-indicators button{
-        height: 7.5px!important;
-        width: 7.5px!important;
-        margin: 0 7.5px!important;
-        border-radius: 100%!important;
+
+    .carousel-indicators button {
+        height: 7.5px !important;
+        width: 7.5px !important;
+        margin: 0 7.5px !important;
+        border-radius: 100% !important;
     }
 }
 
@@ -126,20 +147,16 @@
 
 
 
-.dropdown-toggle::after{
-    display:none !important; 
+.dropdown-toggle::after {
+    display: none !important;
+}
 
-}
-.txt{
-    font-size:14px;
-}
-.row > * {
-    padding-right: calc(var(--bs-gutter-x) * .0)!important;
-    padding-left: calc(var(--bs-gutter-x) * .0)!important;
+.txt {
+    font-size: 14px;
 }
 
 .cont2 {
-    margin-left:15%;
+    margin-left: 15%;
 }
 
 
@@ -174,12 +191,12 @@
 
 /* list view css setting*/
 
-.list-view .card-img-top{
-    position:relative;
+.list-view .card-img-top {
+    position: relative;
 }
 
 .list-view .location-btn {
-    position: absolute  ;
+    position: absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 18px;
@@ -187,42 +204,42 @@
     padding: 0%;
     width: 8%;
     height: 10%;
-    margin-left: 19.2%;
+    margin-left: 27%;
 }
+
 .list-view .like-btn {
     position: absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
-    margin-left: 23.2%;
+    margin-left: 30.8%;
     margin-top: 17%;
-    width: 4% ;
-    height: 12%;
+    width: 4%;
+    height: 14%;
 }
+
 .list-view .eye-btn {
-    position: absolute!important;
+    position: absolute !important;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
     width: fit-content;
-    margin-left: 23.2%;
-    margin-top: 23%!important ;
-    width: 4%!important;
-    height: 12%;
+    margin-left: 30.8%;
+    margin-top: 23% !important;
+    width: 4% !important;
+    height: 14%;
 }
+
 .list-view .date-btn {
     margin-left: 16%;
     margin-top: 0.3%;
     height: 7%;
     width: 29%;
 }
-.listview .apply-button {
-    width: 30%;
-    padding: 1%;
-}
 
-@media (max-width :1400px) and (min-width : 1200px){
+
+@media (max-width :1400px) and (min-width : 1200px) {
     .list-view .location-btn {
         margin-left: 23.4%;
     }
@@ -234,30 +251,29 @@
     .list-view .eye-btn {
         margin-left: 27.4%;
     }
-
 }
-@media (max-width :1200px) and (min-width : 992px){
+
+@media (max-width :1200px) and (min-width : 992px) {
     .list-view .location-btn {
         width: 9%;
         height: 10%;
-        margin-left: 28.3%;
+        margin-left: 26%;
     }
 
     .list-view .like-btn {
-        margin-left: 33.2%;
+        margin-left: 31%;
         margin-top: 21%;
-        
     }
 
     .list-view .eye-btn {
-        margin-left: 33.2%;
+        margin-left: 31%;
         margin-top: 28% !important;
-   
     }
 }
-@media (max-width : 992px){
-    .btn-grid , .btn-list{
-        display:none;
+
+@media (max-width : 992px) {
+    .btn-grid, .btn-list {
+        display: none;
     }
 }
 
@@ -267,8 +283,8 @@
     background: #F8863400 0% 0% no-repeat padding-box;
     border: 2px solid #F88634;
     border-radius: 24px;
-    width: 40%;
-    padding: 1.5%;
+    width: 30%;
+    padding: 0.5%;
     color: #F88634;
 }
 
@@ -277,7 +293,7 @@
     border-radius: 22px;
 }
 
-.cardbtn span {
+    .cardbtn span {
         color: #fd7e14;
     }
 
@@ -302,6 +318,7 @@ hr {
 .seat {
     font-size: 0.7rem;
 }
+
 .category-btn {
     background: white;
     opacity: 1;
@@ -331,8 +348,9 @@ hr {
     z-index: 1;
     font-size: 73%;
 }
-.card-img-top{
-    position:relative;
+
+.card-img-top {
+    position: relative;
 }
 
 .location-btn {
@@ -352,7 +370,7 @@ hr {
     }
 
 .like-btn {
-    position:absolute;
+    position: absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
@@ -364,7 +382,7 @@ hr {
 }
 
 .eye-btn {
-    position:absolute;
+    position: absolute;
     background: #000000 0% 0% no-repeat padding-box;
     opacity: 0.5;
     border-radius: 50%;
@@ -374,18 +392,17 @@ hr {
     width: 11% !important;
     height: 6%;
 }
+
 .checked {
     color: orange;
 }
 
-
+.seat-and-goal {
+    justify-content: space-between;
+}
 
 
 /*for list view and grid view*/
-
-
-
-
 .card {
     margin-bottom: 1rem;
 }
@@ -406,7 +423,7 @@ hr {
 }
 
 .list-view .card > .card-img-top {
-    width: auto;
+    width: 35%;
 }
 
 .list-view .card .card-body {
@@ -424,7 +441,7 @@ hr {
 
 
 
-@media (min-width: 576px) {
+@media (min-width: 764px) {
     .navbar-expand-sm {
         flex-wrap: nowrap;
         justify-content: flex-start;
@@ -457,22 +474,237 @@ hr {
 
 
 @media (min-width: 992px) {
-    .navbar-expand-lg, .header2{
-        flex-wrap: nowrap!important;
-        justify-content: flex-start!important;
-        padding-left: 6%!important;
-        padding-right: 6%!important;
+    .navbar-expand-lg, .header2 {
+        flex-wrap: nowrap !important;
+        justify-content: flex-start !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
     }
 }
-@media (min-width : 768px){
+
+@media (min-width : 768px) {
     #toggle-container {
         padding-left: 6.5%;
         padding-right: 6.5%;
     }
 }
+
 @media (max-width : 768px) {
     #toggle-container {
         padding-left: 10%;
         padding-right: 10%;
     }
+}
+
+
+/* Volunteering Mission Page */
+
+
+section {
+    background: #F4F4F4;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1044px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.carousel {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 22px;
+}
+
+    .carousel > input {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+    }
+
+        .carousel > input:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type {
+            margin-left: -500%;
+        }
+
+        .carousel > input:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type {
+            margin-left: -400%;
+        }
+
+        .carousel > input:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type {
+            margin-left: -300%;
+        }
+
+        .carousel > input:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type {
+            margin-left: -200%;
+        }
+
+        .carousel > input:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type {
+            margin-left: -100%;
+        }
+
+        .carousel > input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
+            margin-left: 0%;
+        }
+
+        .carousel > input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) {
+            box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+        }
+
+        .carousel > input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) {
+            box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+        }
+
+        .carousel > input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) {
+            box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+        }
+
+        .carousel > input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) {
+            box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+        }
+
+        .carousel > input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) {
+            box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+        }
+
+        .carousel > input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
+            box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
+        }
+
+.carousel__slides {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.carousel__slide {
+    position: relative;
+    display: block;
+    flex: 1 0 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+    .carousel__slide figure {
+        display: flex;
+        margin: 0;
+    }
+
+    .carousel__slide div {
+        position: relative;
+        width: 100%;
+    }
+
+        .carousel__slide div:before {
+            display: block;
+            content: "";
+            width: 100%;
+            padding-top: 66.6666666667%;
+        }
+
+        .carousel__slide div > img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    .carousel__slide img {
+        display: block;
+        flex: 1 1 auto;
+        object-fit: cover;
+    }
+
+    .carousel__slide figcaption {
+        align-self: flex-end;
+        padding: 20px 20px 0 20px;
+        flex: 0 0 auto;
+        width: 25%;
+        min-width: 150px;
+    }
+
+    .carousel__slide .credit {
+        margin-top: 1rem;
+        color: rgba(0, 0, 0, 0.5);
+        display: block;
+    }
+
+    .carousel__slide.scrollable {
+        overflow-y: scroll;
+    }
+
+.carousel__thumbnails {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin: 0 -10px;
+}
+
+.carousel__slides + .carousel__thumbnails {
+    margin-top: 20px;
+}
+
+.carousel__thumbnails li {
+    flex: 1 1 auto;
+    max-width: calc((100% / 6) - 20px);
+    margin: 0 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.carousel__thumbnails label {
+    display: block;
+    position: relative;
+}
+
+    .carousel__thumbnails label:before {
+        display: block;
+        content: "";
+        width: 100%;
+        padding-top: 100%;
+    }
+
+    .carousel__thumbnails label > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carousel__thumbnails label:hover, .carousel__thumbnails label:focus {
+        cursor: pointer;
+    }
+
+        .carousel__thumbnails label:hover img, .carousel__thumbnails label:focus img {
+            box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.25);
+            transition: all 300ms ease-in-out;
+        }
+
+.carousel__thumbnails img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
