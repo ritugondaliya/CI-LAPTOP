@@ -241,15 +241,16 @@
 
 @media (max-width :1400px) and (min-width : 1200px) {
     .list-view .location-btn {
-        margin-left: 23.4%;
+        margin-left: 26.4%;
     }
 
     .list-view .like-btn {
-        margin-left: 27.4%;
+        margin-left: 30.8%;
+
     }
 
     .list-view .eye-btn {
-        margin-left: 27.4%;
+        margin-left: 30.8%;
     }
 }
 
@@ -317,6 +318,12 @@ hr {
 
 .seat {
     font-size: 0.7rem;
+}
+.progress {
+    border-radius: 10px;
+}
+.progress-bar {
+    border-radius: 10px;
 }
 
 .category-btn {
@@ -510,6 +517,7 @@ section {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 
 .carousel {
     display: block;
