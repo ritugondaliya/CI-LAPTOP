@@ -237,6 +237,25 @@
     height: 7%;
     width: 29%;
 }
+.list-view .category-btn {
+    background: white;
+    opacity: 1;
+    border-radius: 18px;
+    width: fit-content;
+    padding: 0 1%;
+    width: auto;
+    height: 5%;
+    margin-left: 11%;
+    margin-top: 38.7% !important;
+    border: 0px;
+    color: #ADADAD;
+}
+
+@media screen and (min-width : 1400px){
+    .list-view .category-btn {
+        margin-top: 26.3% !important;
+    }
+}
 
 
 @media (max-width :1400px) and (min-width : 1200px) {
@@ -251,6 +270,13 @@
 
     .list-view .eye-btn {
         margin-left: 30.8%;
+    }
+    .list-view .category-btn {
+        margin-left: 12%;
+        margin-top: 30.2% !important;
+    }
+    .list-view .category-btn {
+        margin-top: 38.3% !important;
     }
 }
 
@@ -284,7 +310,7 @@
     background: #F8863400 0% 0% no-repeat padding-box;
     border: 2px solid #F88634;
     border-radius: 24px;
-    width: 30%;
+    width: auto;
     padding: 0.5%;
     color: #F88634;
 }
@@ -632,7 +658,6 @@ hr {
     border: 0;
     border-radius: 22px;
     color: #414141;
-    margin-left: 2%;
     margin-top: 0.9%;
     height: 5%;
     width: auto;
@@ -645,7 +670,6 @@ hr {
     border: 0;
     border-radius: 22px;
     color: #414141;
-    margin-left: 2%;
     margin-top: 0.9%;
     height: 5%;
     width: auto;
@@ -655,6 +679,12 @@ hr {
 .four-cards{
     display:none;
 }
+@media screen and (max-width :992px) {
+    .four-cards {
+        display: none !important;
+    }
+}
+
 
 @media screen and (max-width :1160px) {
     .city-theme-volunteering {
@@ -693,7 +723,13 @@ hr {
     .rating-star-volunteering-parent {
         margin-top: 3%;
     }
+    
+}
 
+@media screen and (max-width:991px){
+    .card {
+        margin-top: 4%;
+    }
 }
 
 @media screen and (min-width:992px) and (max-width:1260px) {
@@ -729,5 +765,98 @@ hr {
 @media screen and (min-width:1361px){
     .four-cards {
         display: none !important;
+    }
+}
+
+
+/* Tab layout Volunteering */
+
+/* nav */
+.tab-card {
+    padding: 0;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+a.active {
+    border-bottom: 2px solid #55c57a;
+}
+
+.nav-link {
+    color: rgb(110, 110, 110);
+    font-weight: 500;
+}
+
+    .nav-link:hover {
+        color: #55c57a;
+    }
+
+.nav-pills .nav-link.active {
+    color: black;
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-weight: 600;
+}
+
+.tab-content {
+    padding-bottom: 1.3rem;
+}
+
+.form-control {
+    background-color: rgb(241, 243, 247);
+    border: none;
+}
+
+
+
+
+.first-tab{
+    font-size:20px;
+}
+.first-tab-content{
+    font-size:15.1px;
+}
+.information, .recent-volunteers, .display-volunteers {
+    border: 1px solid #ADADAD;
+}
+.volunteeers-img{
+    border-radius:100px;
+    height:60px;
+}
+.volunteers-name{
+    font-size:10px;
+}
+.document-btn {
+    border: 1px solid #ADADAD;
+    border-radius:15px;
+    width:auto;
+}
+.information-star-imgs {
+    margin-left: 25%;
+    width:100%;
+}
+.addinfo {
+    padding: 0 1rem;
+}
+.comment-section{
+    border:1px solid white;
+    background-color:white;
+}
+.comment-section-text{
+    font-size:13px;
+}
+.comment-section-perent{
+    background-color:#F6F6F6;
+}
+
+@media screen and (max-width:392px) {
+    .information-star-imgs{
+        margin-left:15%;
+    }
+    .information-star-img {
+        height: 14px;
+    }
+    .by-n-volunteers{
+        font-size:12px;
     }
 }

@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = "header";
+    Layout = "header-top";
 }
 <html lang="en">
 <head>
@@ -62,13 +62,9 @@
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-                <!-- Image text -->
-                <div class="caption-container">
-                    <p id="caption"></p>
-                </div>
 
                 <!-- Thumbnail images -->
-                <div class="row">
+                <div class="row mt-2">
                     <div class="col-3">
                         <img class="demo cursor" src="~/Images/img33.png" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
                     </div>
@@ -197,6 +193,218 @@
         </div>
 
     </div>
+
+    <div class="row ms-5 me-5">
+
+        <div class="col-12 col-md-12 col-lg-8 col-sm-12">
+            <div class="container card tab-card shadow d-flex justify-content-center mt-5 m-0">
+                <!-- nav options -->
+                <ul class="nav nav-pills mb-3 shadow-sm" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Organization</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Comments</a>
+                    </li>
+                </ul>
+
+                <!-- content -->
+                <div class="tab-content" id="pills-tabContent p-3">
+                    <!-- 1st card -->
+                    <div class="tab-pane fade show active m-4" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                       <div class="introduction first-tab mt-2">Introduction</div>
+                        <div class="first-tab-content mt-2">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                       </div>
+                       <div class="organization first-tab mt-4">Challenge</div>
+                        <div class="first-tab-content mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                       </div>
+                       <div class="comment first-tab mt-4">Documents</div>
+                        <div class="row first-tab-content mt-2">
+                          <div class="col">
+                                <button type="button" class="document-btn"><img src="~/Images/pdf.png" />lorem-ipsum.pdf</button>
+                          </div>
+                          <div class="col">
+                                <button type="button" class="document-btn"><img src="~/Images/pdf.png" />lorem-ipsum.pdf</button>
+                          </div>
+                          <div class="col">
+                                <button type="button" class="document-btn"><img src="~/Images/pdf.png" />lorem-ipsum.pdf</button>
+                          </div>
+                          
+                       </div>
+                    </div>
+                    <!-- 2nd card -->
+                    <div class="tab-pane fade m-4" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="first-tab-content mt-2">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                    </div>
+                    <!-- 3nd card -->
+                    <div class="tab-pane fade third" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="form-group addinfo">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter your comments.." rows="3"></textarea>
+                        </div>
+                        <div class="mt-4 ms-3">
+                            <button type="button" class="apply-button d-flex justify-content-center mb-4">Post Comment</button>
+                        </div>
+                        <div class="mt-3">
+                            <div class="comment-section-perent p-3 m-3" style="height:520px; overflow:scroll;">
+                                <div class="d-flex comment-section">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                 <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                 <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                 <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex comment-section mt-3">
+                                    <div class="ms-3 mt-2"><img src="~/Images/volunteer2.png" class="volunteeers-img" /></div>
+                                    <div class="ms-3 comment-section-text">
+                                        <div>Margaret walsh</div>
+                                        <div>Monday, October 21, 2019, 11:13 AM</div>
+                                        <div class="mt-2">Nice mission great opportunity for people</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 col-sm-12 mt-5">
+            <div class="information p-4">
+                <div>Information</div>
+                <hr/>
+                <div class="d-flex">
+                    <div>Skill</div>
+                    <div class="ms-5">Cool, Easy going, Math, Computer</div>
+                </div>
+                <hr />
+                <div class="d-flex">
+                    <div>Days</div>
+                    <div class="ms-5">Weekend Only</div>
+                </div>
+                <hr />
+                <div class="d-flex">
+                    <div>Rating</div>
+                    <div>
+
+                        <div class="information-star-imgs">
+                        <img src="~/Images/selected-star.png" class="information-star-img"/>
+                            <img src="~/Images/selected-star.png" class="information-star-img" />
+                            <img src="~/Images/selected-star.png" class="information-star-img" />
+                            <img src="~/Images/selected-star.png" class="information-star-img" />
+                            <img src="~/Images/selected-star.png" class="information-star-img" />
+                    </div>
+                        <div class="information-star-imgs by-n-volunteers">(by 150 voluteers)</div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-volunteers mt-3 p-4">
+                <div>Recent Volunteers</div>
+                <hr/>
+                <div class="row">
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2"  />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                    <div class="col">
+                        <img src="~/Images/volunteer1.png" class="volunteeers-img mt-2" />
+                        <div class="volunteers-name"> Volunteers name</div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex display-volunteers" style="text-align:center;">
+                <button type="button" class="border-0"><img src="~/Images/previous.png" /></button>
+                <div class="d-flex justify-content-center" style="width:100%;">1-9 0f 25 volunteers</div>
+                <button type="button" class="previous-btn ms-auto border-0"><img src="~/Images/next.png" /></button>
+            </div>
+
+        </div>
+
+    </div>
+   
+    <partial name="RelatedMission" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="/js/custom.js"></script>
