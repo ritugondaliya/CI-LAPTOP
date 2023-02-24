@@ -45,7 +45,12 @@ namespace CI_Application.Controllers
         public IActionResult NoMissionFound()
         {
             return View();
-        }public IActionResult VolunteeringMissionPage()
+        }
+        public IActionResult VolunteeringMissionPage()
+        {
+            return View();
+        }
+        public IActionResult StoryListingPage()
         {
             return View();
         }
