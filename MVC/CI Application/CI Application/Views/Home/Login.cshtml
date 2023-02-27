@@ -1,6 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model CI_Application.Entities.DataModels.User
 @{
 }
 <!DOCTYPE html>
@@ -17,18 +15,18 @@
 
 <div class="card ms-5 me-4 border-0 centerLogin">
     <div class="card-body mt-5">
-        <form>
+        <form asp-controller="Login" asp-action="Login">
             <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1"
+                <label asp-for="Email" class="form-label">Email address</label>
+                <input asp-for="Email" type="email" class="form-control" id="exampleInputEmail1"
                        placeholder="name@gmail.com" aria-describedby="emailHelp">
             </div>
             <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1"
+                <label asp-for="Password" class="form-label">Password</label>
+                <input asp-for="Password" type="password" class="form-control" id="exampleInputPassword1"
                        placeholder="EnterPassword">
             </div>
-            <button type="button" class="button mt-3">Login</button>
+            <button type="submit" class="button mt-3">Login</button>
             <p class="d-flex justify-content-center mt-4">
                 <a asp-action="ForgotPassword" asp-controller="Home" class="link1">
                     Lost your Password?
@@ -43,3 +41,4 @@
     </div>
 </div>
 </html>
+*@*@*@

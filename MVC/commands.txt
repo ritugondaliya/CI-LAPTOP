@@ -1,0 +1,24 @@
+// add in appsetting.json
+
+"ConnectionStrings": {
+    "connstr": "Server=LAPTOP-VHTIF8KV;Initial Catalog=CI Platform;Persist Security Info=False;User ID=sa;Password=Tatva@123;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True;Connection Timeout=30;Trusted_Connection=True"
+  }
+
+// run the command in consol
+
+Scaffold-DbContext Name=ConnectionStrings:connstr Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataModels -Context CIDbContext
+
+Scaffold-DbContext Name=ConnectionStrings:connstr Microsoft.EntityFrameworkCore.SqlServer -OutputDir DataModels -ContextDir "CIDbContext" -f
+
+
+// add in program.cs file 
+
+string conection = builder.Configuration.GetConnectionString("connstr");
+
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<EmployeeDbContext>(options =>
+{
+    options.UseSqlServer(conection);
+});

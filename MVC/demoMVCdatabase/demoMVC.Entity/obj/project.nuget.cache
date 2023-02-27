@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mcgP5BL/eZsiD7zlYm/86BSbFtYySYONLsbJ2WhDxF1ZyGUwMwYYCASI03615MDKSD/ECkIdoOmfCdqj/1zWYQ==",
+  "dgSpecHash": "JHgtdHNwbBaeVUaJwA4N1E6oIqhLg+z9hjrli+xlNyaKkSO153QlUyXWxJQOACkafqqRNryNznieYGRzgO1GjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\demoMVC.Entity.csproj",
+  "projectFilePath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\demoMVC.Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ritu gondaliya\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ritu gondaliya\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

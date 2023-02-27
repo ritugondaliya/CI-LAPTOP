@@ -175,7 +175,7 @@
 .filter-close-button {
     background-color: transparent;
     border: none;
-    cursor: pointer;
+    cursor: pointer;   
     font-size: 18px;
     margin-left: 5px;
     color: #888;

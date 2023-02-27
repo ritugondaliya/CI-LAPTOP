@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Repositories\\demoMVC.Repositories.csproj": {}
+    "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Repositories\\demoMVC.Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\demoMVC.Entity.csproj": {
+    "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\demoMVC.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\demoMVC.Entity.csproj",
+        "projectUniqueName": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\demoMVC.Entity.csproj",
         "projectName": "demoMVC.Entity",
-        "projectPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\demoMVC.Entity.csproj",
+        "projectPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\demoMVC.Entity.csproj",
         "packagesPath": "C:\\Users\\ritu gondaliya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\obj\\",
+        "outputPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ritu gondaliya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Repositories\\demoMVC.Repositories.csproj": {
+    "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Repositories\\demoMVC.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Repositories\\demoMVC.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Repositories\\demoMVC.Repositories.csproj",
         "projectName": "demoMVC.Repositories",
-        "projectPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Repositories\\demoMVC.Repositories.csproj",
+        "projectPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Repositories\\demoMVC.Repositories.csproj",
         "packagesPath": "C:\\Users\\ritu gondaliya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Repositories\\obj\\",
+        "outputPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ritu gondaliya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -95,8 +95,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\demoMVC.Entity.csproj": {
-                "projectPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVC\\demoMVC.Entity\\demoMVC.Entity.csproj"
+              "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\demoMVC.Entity.csproj": {
+                "projectPath": "C:\\Users\\ritu gondaliya\\Desktop\\Tatva_soft\\CI Platform\\MVC\\demoMVCdatabase\\demoMVC.Entity\\demoMVC.Entity.csproj"
               }
             }
           }

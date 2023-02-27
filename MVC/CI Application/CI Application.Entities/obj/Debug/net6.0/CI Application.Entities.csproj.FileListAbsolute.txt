@@ -1,0 +1,14 @@
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\bin\Debug\net6.0\CI Application.Entities.deps.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\bin\Debug\net6.0\CI Application.Entities.runtimeconfig.json
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\bin\Debug\net6.0\CI Application.Entities.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\bin\Debug\net6.0\CI Application.Entities.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.csproj.AssemblyReference.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.AssemblyInfoInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.AssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\refint\CI Application.Entities.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\CI Application.Entities.genruntimeconfig.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application.Entities\obj\Debug\net6.0\ref\CI Application.Entities.dll
