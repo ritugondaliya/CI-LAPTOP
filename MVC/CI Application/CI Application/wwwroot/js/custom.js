@@ -163,3 +163,31 @@ function showSlides(n) {
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
  
+
+
+// registration form validation  
+
+
+var form = document.querySelector('form');
+
+
+function validatePassword() {   
+    var x = document.getElementById("reg-pass").value;
+    var y = document.getElementById("reg-con-pass").value;
+    var z = document.getElementById("pass-conf-err");
+
+    if (x != y) {
+        var submitButton = document.getElementById("reg-btn");
+        submitButton.disabled = true;
+        z.style.display = "block";
+        
+    }
+    else {
+        var submitButton = document.getElementById("reg-btn");
+        submitButton.disabled = false;
+    }
+}
+
+function confirmpass() {
+    document.getElementById("pass-conf-err").style.display = "none";
+}
