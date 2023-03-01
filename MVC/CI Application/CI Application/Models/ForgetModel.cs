@@ -4,7 +4,7 @@ namespace CI_Platform.Models
 {
     public class ForgetModel
     {
-        [Required(ErrorMessage = "please enter password")]
+        [Required(ErrorMessage = "please enter Email")]
         public string? Email { get; set; }
 
     }

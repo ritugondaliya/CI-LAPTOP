@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Home/ForgotPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Home/ResetPassword.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNldFBhc3N3b3JkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Home/StoryListingPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yeUxpc3RpbmdQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/ResetPassword/Forgetpass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRQYXNzd29yZFxGb3JnZXRwYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/ResetPassword/Resetpass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXRQYXNzd29yZFxSZXNldHBhc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Shared/Error.cshtml]
