@@ -15,11 +15,11 @@ namespace CI.Controllers
         {
             _CiPlatformContext = CiPlatformContext;
         }
-        //public IActionResult Index()
-        //{
-        //    List<User> Users = _CiPlatformContext.Users.ToList();
-        //    return View(Users);
-        //}
+        public IActionResult Index()
+        {
+            List<User> Users = _CiPlatformContext.Users.ToList();
+            return View(Users);
+        }
 
 
         // get from frontend

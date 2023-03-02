@@ -133,6 +133,7 @@ namespace CI_Application.Controllers
 
                 // Update the user's password
                 user.Password = resetPasswordView.Password;
+                user.UpdatedAt = resetPasswordView.UpdatedAt;
                 _CiPlatformContext.SaveChanges();
 
                

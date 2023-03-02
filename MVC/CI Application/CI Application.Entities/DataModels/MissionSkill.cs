@@ -17,7 +17,7 @@ public partial class MissionSkill
 
     public DateTime? DeletedAt { get; set; }
 
-    public virtual Misson? Mission { get; set; }
+    public virtual Mission? Mission { get; set; }
 
     public virtual Skill Skill { get; set; } = null!;
 }

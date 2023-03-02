@@ -32,6 +32,8 @@ public partial class CiPlatformContext : DbContext
 
     public virtual DbSet<GoalMission> GoalMissions { get; set; }
 
+    public virtual DbSet<Mission> Missions { get; set; }
+
     public virtual DbSet<MissionApplication> MissionApplications { get; set; }
 
     public virtual DbSet<MissionDocument> MissionDocuments { get; set; }
@@ -45,8 +47,6 @@ public partial class CiPlatformContext : DbContext
     public virtual DbSet<MissionSkill> MissionSkills { get; set; }
 
     public virtual DbSet<MissionTheme> MissionThemes { get; set; }
-
-    public virtual DbSet<Misson> Missons { get; set; }
 
     public virtual DbSet<PasswordReset> PasswordResets { get; set; }
 
@@ -304,6 +304,71 @@ public partial class CiPlatformContext : DbContext
                 .HasConstraintName("FK_goal_mission_misson");
         });
 
+        modelBuilder.Entity<Mission>(entity =>
+        {
+            entity.HasKey(e => e.MissionId).HasName("PK_misson");
+
+            entity.ToTable("mission");
+
+            entity.Property(e => e.MissionId).HasColumnName("mission_id");
+            entity.Property(e => e.Availability)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("availability");
+            entity.Property(e => e.CityId).HasColumnName("city_id");
+            entity.Property(e => e.CountryId).HasColumnName("country_id");
+            entity.Property(e => e.CreatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("created_at");
+            entity.Property(e => e.DeletedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("deleted_at");
+            entity.Property(e => e.Description)
+                .HasColumnType("text")
+                .HasColumnName("description");
+            entity.Property(e => e.EndDate)
+                .HasColumnType("datetime")
+                .HasColumnName("end_date");
+            entity.Property(e => e.MissionType)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("mission_type");
+            entity.Property(e => e.OrganizationDetail)
+                .HasColumnType("text")
+                .HasColumnName("organization_detail");
+            entity.Property(e => e.OrganizationName)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("organization_name");
+            entity.Property(e => e.ShortDescription)
+                .HasColumnType("text")
+                .HasColumnName("short_description");
+            entity.Property(e => e.StartDate)
+                .HasColumnType("datetime")
+                .HasColumnName("start_date");
+            entity.Property(e => e.Status).HasColumnName("status");
+            entity.Property(e => e.ThemeId).HasColumnName("theme_id");
+            entity.Property(e => e.Title)
+                .HasMaxLength(128)
+                .IsUnicode(false)
+                .HasColumnName("title");
+            entity.Property(e => e.UpdatedAt)
+                .HasColumnType("datetime")
+                .HasColumnName("updated_at");
+
+            entity.HasOne(d => d.City).WithMany(p => p.Missions)
+                .HasForeignKey(d => d.CityId)
+                .HasConstraintName("FK_misson_city");
+
+            entity.HasOne(d => d.Country).WithMany(p => p.Missions)
+                .HasForeignKey(d => d.CountryId)
+                .HasConstraintName("FK_misson_country");
+
+            entity.HasOne(d => d.Theme).WithMany(p => p.Missions)
+                .HasForeignKey(d => d.ThemeId)
+                .HasConstraintName("FK_misson_mission_theme");
+        });
+
         modelBuilder.Entity<MissionApplication>(entity =>
         {
             entity.ToTable("mission_application");
@@ -525,75 +590,6 @@ public partial class CiPlatformContext : DbContext
             entity.Property(e => e.UpdatedAt)
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
-        });
-
-        modelBuilder.Entity<Misson>(entity =>
-        {
-            entity.HasKey(e => e.MissionId);
-
-            entity.ToTable("misson");
-
-            entity.Property(e => e.MissionId).HasColumnName("mission_id");
-            entity.Property(e => e.Availability)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("availability");
-            entity.Property(e => e.CityId).HasColumnName("city_id");
-            entity.Property(e => e.CountryId).HasColumnName("country_id");
-            entity.Property(e => e.CreatedAt)
-                .IsRowVersion()
-                .IsConcurrencyToken()
-                .HasColumnName("created_at");
-            entity.Property(e => e.DeletedAt)
-                .HasColumnType("datetime")
-                .HasColumnName("deleted_at");
-            entity.Property(e => e.Description)
-                .HasColumnType("text")
-                .HasColumnName("description");
-            entity.Property(e => e.EndDate)
-                .HasColumnType("datetime")
-                .HasColumnName("end_date");
-            entity.Property(e => e.MissionType)
-                .HasMaxLength(50)
-                .IsUnicode(false)
-                .HasColumnName("mission_type");
-            entity.Property(e => e.OrganizationDetail)
-                .HasColumnType("text")
-                .HasColumnName("organization_detail");
-            entity.Property(e => e.OrganizationName)
-                .HasMaxLength(255)
-                .IsUnicode(false)
-                .HasColumnName("organization_name");
-            entity.Property(e => e.ShortDescription)
-                .HasColumnType("text")
-                .HasColumnName("short_description");
-            entity.Property(e => e.StartDate)
-                .HasColumnType("datetime")
-                .HasColumnName("start_date");
-            entity.Property(e => e.Status).HasColumnName("status");
-            entity.Property(e => e.ThemeId).HasColumnName("theme_id");
-            entity.Property(e => e.Title)
-                .HasMaxLength(128)
-                .IsUnicode(false)
-                .HasColumnName("title");
-            entity.Property(e => e.UpdatedAt)
-                .HasColumnType("datetime")
-                .HasColumnName("updated_at");
-
-            entity.HasOne(d => d.City).WithMany(p => p.Missons)
-                .HasForeignKey(d => d.CityId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_misson_city");
-
-            entity.HasOne(d => d.Country).WithMany(p => p.Missons)
-                .HasForeignKey(d => d.CountryId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_misson_country");
-
-            entity.HasOne(d => d.Theme).WithMany(p => p.Missons)
-                .HasForeignKey(d => d.ThemeId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_misson_mission_theme");
         });
 
         modelBuilder.Entity<PasswordReset>(entity =>

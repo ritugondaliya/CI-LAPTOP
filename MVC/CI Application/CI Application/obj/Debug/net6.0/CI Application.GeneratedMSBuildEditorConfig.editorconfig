@@ -24,10 +24,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOb01pc3Npb25Gb3VuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Home/PlatFormLandingPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQbGF0Rm9ybUxhbmRpbmdQYWdlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/PlatformLanding/PlatformLanding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhdGZvcm1MYW5kaW5nXFBsYXRmb3JtTGFuZGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ritu gondaliya/Desktop/Tatva_soft/CI Platform/MVC/CI Application/CI Application/Views/ResetPassword/Forgetpass.cshtml]

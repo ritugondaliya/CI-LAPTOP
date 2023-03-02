@@ -1,4 +1,5 @@
 ﻿@model CI_Application.Models.ResetPasswordView
+@*@model CI_Application.Entities.DataModels.User*@
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -36,6 +37,7 @@
                 <label for="exampleInputPassword1" class="form-label">Confirm New Password</label>
                 <input type="password" onfocusout="validatePassword()" onkeyup="confirmpass()" asp-for="ConfirmPassword" class="form-control" id="reg-con-pass">
             </div>
+               <input type="hidden" asp-for="UpdatedAt" value="@DateTime.Now" />
             <span class="text-danger" style="display:none;" id="pass-conf-err">Password and Confirm Password must be same </span>
             <button type="submit" class="button mt-3" id="reg-btn">Change Password</button>
             <p class="d-flex justify-content-center mt-4">

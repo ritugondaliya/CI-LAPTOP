@@ -17,5 +17,5 @@ public partial class MissionTheme
 
     public DateTime? DeletedAt { get; set; }
 
-    public virtual ICollection<Misson> Missons { get; } = new List<Misson>();
+    public virtual ICollection<Mission> Missions { get; } = new List<Mission>();
 }

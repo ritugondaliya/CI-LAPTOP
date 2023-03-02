@@ -21,7 +21,7 @@ public partial class MissionInvite
 
     public virtual User FromUser { get; set; } = null!;
 
-    public virtual Misson Mission { get; set; } = null!;
+    public virtual Mission Mission { get; set; } = null!;
 
     public virtual User ToUser { get; set; } = null!;
 }

@@ -37,7 +37,7 @@ public class LoginController : Controller
             if (user != null)
             {
 
-                return RedirectToAction(nameof(HomeController.PlatFormLandingPage), "Home");
+                return RedirectToAction(nameof(HomeController.PlatformLanding), "PlatformLanding");
             }
             else
             {

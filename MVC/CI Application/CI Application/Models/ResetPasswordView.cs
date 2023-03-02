@@ -10,5 +10,7 @@
 
         public string ConfirmPassword { get; set; } = null!;
 
+        public DateTime UpdatedAt { get; set; }
+
     }
 }   
