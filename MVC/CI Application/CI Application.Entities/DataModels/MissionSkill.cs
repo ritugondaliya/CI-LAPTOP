@@ -11,7 +11,7 @@ public partial class MissionSkill
 
     public long? MissionId { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

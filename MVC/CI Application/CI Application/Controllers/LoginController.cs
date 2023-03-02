@@ -22,6 +22,7 @@ public class LoginController : Controller
     [AllowAnonymous]
     public IActionResult Login()
     {
+        HttpContext.Session.Clear();
         return View();
     }
 
@@ -34,9 +35,10 @@ public class LoginController : Controller
 
            
             var user = await _CiPlatformContext.Users.FirstOrDefaultAsync(u => u.Email == model.Email && u.Password == model.Password);
+            var username = model.Email.Split("@")[0];
             if (user != null)
             {
-
+                HttpContext.Session.SetString("userID", username);
                 return RedirectToAction(nameof(HomeController.PlatformLanding), "PlatformLanding");
             }
             else

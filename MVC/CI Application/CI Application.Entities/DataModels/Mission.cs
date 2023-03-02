@@ -7,11 +7,11 @@ public partial class Mission
 {
     public long MissionId { get; set; }
 
-    public long? ThemeId { get; set; }
-
     public long? CityId { get; set; }
 
     public long? CountryId { get; set; }
+
+    public long? ThemeId { get; set; }
 
     public string? Title { get; set; }
 
@@ -25,7 +25,7 @@ public partial class Mission
 
     public string? MissionType { get; set; }
 
-    public bool? Status { get; set; }
+    public string? Status { get; set; }
 
     public string? OrganizationName { get; set; }
 
@@ -45,7 +45,7 @@ public partial class Mission
 
     public virtual Country? Country { get; set; }
 
-    public virtual ICollection<FavouriteMission> FavouriteMissions { get; } = new List<FavouriteMission>();
+    public virtual ICollection<FavoriteMission> FavoriteMissions { get; } = new List<FavoriteMission>();
 
     public virtual ICollection<GoalMission> GoalMissions { get; } = new List<GoalMission>();
 

@@ -7,13 +7,13 @@ public partial class MissionRating
 {
     public long MissionRatingId { get; set; }
 
-    public long UserId { get; set; }
-
     public long MissionId { get; set; }
 
-    public bool Rating { get; set; }
+    public long UserId { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public string Rating { get; set; } = null!;
+
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

@@ -7,11 +7,11 @@ public partial class MissionTheme
 {
     public long MissionThemeId { get; set; }
 
-    public string Title { get; set; } = null!;
+    public string? Title { get; set; }
 
     public byte Status { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

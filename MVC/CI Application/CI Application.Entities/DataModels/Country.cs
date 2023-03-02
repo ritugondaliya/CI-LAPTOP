@@ -11,11 +11,11 @@ public partial class Country
 
     public string? Iso { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
-
-    public DateTime? DeletedAt { get; set; }
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
+
+    public DateTime? DeletedAt { get; set; }
 
     public virtual ICollection<City> Cities { get; } = new List<City>();
 

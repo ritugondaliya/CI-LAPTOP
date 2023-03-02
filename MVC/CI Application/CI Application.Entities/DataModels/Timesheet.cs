@@ -7,11 +7,11 @@ public partial class Timesheet
 {
     public long TimesheetId { get; set; }
 
-    public long? UserId { get; set; }
-
     public long? MissionId { get; set; }
 
-    public TimeSpan? Time { get; set; }
+    public long? UserId { get; set; }
+
+    public TimeSpan? TimesheetTime { get; set; }
 
     public int? Action { get; set; }
 
@@ -21,7 +21,7 @@ public partial class Timesheet
 
     public string Status { get; set; } = null!;
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

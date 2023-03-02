@@ -7,15 +7,15 @@ public partial class CmsPage
 {
     public long CmsPageId { get; set; }
 
-    public string Title { get; set; } = null!;
+    public string? Title { get; set; }
 
-    public string Description { get; set; } = null!;
+    public string? Description { get; set; }
 
     public string Slug { get; set; } = null!;
 
-    public bool Status { get; set; }
+    public string? Status { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

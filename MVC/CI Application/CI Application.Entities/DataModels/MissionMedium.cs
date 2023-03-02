@@ -9,15 +9,15 @@ public partial class MissionMedium
 
     public long MissionId { get; set; }
 
-    public string MediaName { get; set; } = null!;
+    public string? MediaName { get; set; }
 
-    public string MediaType { get; set; } = null!;
+    public string? MediaType { get; set; }
 
     public string? MediaPath { get; set; }
 
-    public bool Default { get; set; }
+    public string? Default { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

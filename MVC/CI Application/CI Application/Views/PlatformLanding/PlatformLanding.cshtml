@@ -57,10 +57,10 @@
                             <button class="eye-btn" type="button"><img src="~/images/eye.png" width="20" height="20" /></button>
                             <button class="category-btn position-absolute">Enviroment</button>
                             <div class="card-body p-0 mt-3">
-                                <h5 class="card-title mt-1 ps-3 pe-3">  </h5>
-                                <p class="card-text ps-3 pe-3"></p>
+                                <h5 class="card-title mt-1 ps-3 pe-3"> @item.Title </h5>
+                                <p class="card-text ps-3 pe-3">@item.ShortDescription</p>
                                 <div class="d-flex ps-3 pe-3">
-                                    <span class="me-auto fs-6">Tree Canada</span>
+                                    <span class="me-auto fs-6">@item.OrganizationName</span>
                                     <span class="me-2">
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
@@ -70,7 +70,7 @@
                                     </span>
                                 </div>
                                 <br />
-                                <button class="date-btn position-absolute">From 10/01/2019 until 25/02/2019</button>
+                                <button class="date-btn position-absolute">From @item.StartDate until @item.EndDate</button>
                                 <hr class="position-relative">
                                 <div class="d-flex flex-row justify-content-between ps-3 pe-3">
                                     <div class="d-flex flex-row align-items-center">

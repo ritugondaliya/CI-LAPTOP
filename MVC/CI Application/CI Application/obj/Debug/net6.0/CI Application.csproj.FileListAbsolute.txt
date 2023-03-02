@@ -1,29 +1,3 @@
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.LibraryModel.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.Protocol.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.csproj.AssemblyReference.cache
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.AssemblyInfoInputs.cache
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.AssemblyInfo.cs
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.csproj.CoreCompileInputs.cache
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.RazorAssemblyInfo.cache
-C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.RazorAssemblyInfo.cs
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\appsettings.json
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.staticwebassets.runtime.json
@@ -61,22 +35,36 @@ C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI App
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Mono.TextTemplating.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\Newtonsoft.Json.dll
@@ -84,8 +72,10 @@ C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI App
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.Configuration.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.LibraryModel.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.Packaging.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.ProjectModel.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\NuGet.Versioning.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\System.Composition.AttributedModel.dll
@@ -117,6 +107,7 @@ C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI App
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
@@ -259,6 +250,7 @@ C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI App
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
@@ -273,6 +265,14 @@ C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI App
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.Entities.dll
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\bin\Debug\net6.0\CI Application.Entities.pdb
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.csproj.AssemblyReference.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.AssemblyInfoInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.AssemblyInfo.cs
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.csproj.CoreCompileInputs.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.RazorAssemblyInfo.cache
+C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\CI Application.RazorAssemblyInfo.cs
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.CI Application.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.build.CI Application.props
 C:\Users\ritu gondaliya\Desktop\Tatva_soft\CI Platform\MVC\CI Application\CI Application\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CI Application.props

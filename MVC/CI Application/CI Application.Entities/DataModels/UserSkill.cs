@@ -7,11 +7,11 @@ public partial class UserSkill
 {
     public long UserSkillId { get; set; }
 
-    public long UserId { get; set; }
-
     public long SkillId { get; set; }
 
-    public byte[] CrestedAt { get; set; } = null!;
+    public long UserId { get; set; }
+
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

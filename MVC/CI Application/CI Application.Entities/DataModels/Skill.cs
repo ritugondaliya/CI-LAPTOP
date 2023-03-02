@@ -7,11 +7,11 @@ public partial class Skill
 {
     public long SkillId { get; set; }
 
-    public string SkillName { get; set; } = null!;
+    public string? SkillName { get; set; }
 
-    public byte Status { get; set; }
+    public string Status { get; set; } = null!;
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

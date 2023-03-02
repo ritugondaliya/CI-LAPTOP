@@ -11,9 +11,9 @@ public partial class GoalMission
 
     public string? GoalObjectiveText { get; set; }
 
-    public int GoalValue { get; set; }
+    public string GoalValue { get; set; } = null!;
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

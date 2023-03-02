@@ -13,7 +13,7 @@ public partial class MissionInvite
 
     public long ToUserId { get; set; }
 
-    public byte[] CreatedAt { get; set; } = null!;
+    public DateTime CreatedAt { get; set; }
 
     public DateTime? UpdatedAt { get; set; }
 

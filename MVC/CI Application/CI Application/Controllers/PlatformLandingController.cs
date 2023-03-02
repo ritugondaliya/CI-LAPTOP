@@ -15,11 +15,20 @@ namespace CI_Application.Controllers
 
 
         }
+
         public IActionResult PlatformLanding()
         {
+
+            var usrid = HttpContext.Session.GetString("userID");
+            if (usrid == null)
+            {
+                return RedirectToAction("Login", "Login");
+
+            }
+
             //List<Mission> mission = _CiPlatformContext.Missions.ToList();
             List<Mission> mission = _CiPlatformContext.Missions.ToList();
-            return View(mission);
+           return View(mission);
         }
     }
 }

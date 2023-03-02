@@ -35,7 +35,7 @@ public partial class User
 
     public string? Title { get; set; }
 
-    public bool Status { get; set; }
+    public string Status { get; set; } = null!;
 
     public DateTime CreatedAt { get; set; }
 
@@ -49,7 +49,7 @@ public partial class User
 
     public virtual Country? Country { get; set; }
 
-    public virtual ICollection<FavouriteMission> FavouriteMissions { get; } = new List<FavouriteMission>();
+    public virtual ICollection<FavoriteMission> FavoriteMissions { get; } = new List<FavoriteMission>();
 
     public virtual ICollection<MissionApplication> MissionApplications { get; } = new List<MissionApplication>();
 
@@ -60,6 +60,10 @@ public partial class User
     public virtual ICollection<MissionRating> MissionRatings { get; } = new List<MissionRating>();
 
     public virtual ICollection<Story> Stories { get; } = new List<Story>();
+
+    public virtual ICollection<StoryInvite> StoryInviteFromUsers { get; } = new List<StoryInvite>();
+
+    public virtual ICollection<StoryInvite> StoryInviteToUsers { get; } = new List<StoryInvite>();
 
     public virtual ICollection<Timesheet> Timesheets { get; } = new List<Timesheet>();
 
