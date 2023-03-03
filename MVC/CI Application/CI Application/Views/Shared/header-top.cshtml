@@ -51,13 +51,15 @@
             <div class="dropdown mx-3 my-auto">
                 <a class="nav-link profileName" href="#" role="button" data-bs-toggle="dropdown"
                    aria-expanded="false" style="font-family: Roboto">
-                    Evan Donohue
-                    <i class="bi bi-chevron-down ms-1 mt-2 profileContent"></i>
+                    @{
+                        var firstname = Context.Session.GetString("firstname");
+                    }
+                    @firstname        <i class="bi bi-chevron-down ms-1 mt-2 profileContent"></i>
                 </a>
                 <ul class="dropdown-menu profileContent">
                     <li><a class="dropdown-item" href="#">Action</a></li>
                     <li><a class="dropdown-item" href="#">Another </a></li>
-                    <li><a class="dropdown-item" href="#">Something </a></li>
+                    <li><a class="dropdown-item" asp-controller="Login" asp-action="Login">LogOut </a></li>
                 </ul>
             </div>
         </div>

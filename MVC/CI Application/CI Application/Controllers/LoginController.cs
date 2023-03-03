@@ -39,6 +39,7 @@ public class LoginController : Controller
             if (user != null)
             {
                 HttpContext.Session.SetString("userID", username);
+                HttpContext.Session.SetString("firstname", user.FirstName);
                 return RedirectToAction(nameof(HomeController.PlatformLanding), "PlatformLanding");
             }
             else

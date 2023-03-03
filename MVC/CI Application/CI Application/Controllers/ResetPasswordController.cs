@@ -44,7 +44,7 @@ namespace CI_Application.Controllers
                 if (user == null)
                 {
                     //return RedirectToAction("Forgetpass", "ResetPassword");
-                    ViewBag.RegError = "email already exist";
+                    ViewBag.RegError = "This email doesn't match with your register email";
                     return View();
                 }
 
@@ -64,7 +64,7 @@ namespace CI_Application.Controllers
                 var resetLink =Url.Action("Resetpass", "ResetPassword", new { email = model.Email, token }, Request.Scheme);
                 // Send email to user with reset password link
                 // ...
-                var fromAddress = new MailAddress("ritugondaliya11@gmail.com", "CIPlatform");
+                var fromAddress = new MailAddress("evanzandu@gmail.com", "CIPlatform");
                 var toAddress = new MailAddress(model.Email);
                 var subject = "Password reset request";
                 var body = $"Hi,<br /><br />Please click on the following link to reset your password:<br /><br /><a href='{resetLink}'>{resetLink}</a>";
@@ -77,7 +77,7 @@ namespace CI_Application.Controllers
                 var smtpClient = new SmtpClient("smtp.gmail.com", 587)
                 {
                     UseDefaultCredentials = false,
-                    Credentials = new NetworkCredential("ritugondaliya11@gmail.com", "uuhhouquupiohcta"),
+                    Credentials = new NetworkCredential("evanzandu@gmail.com", "timrrquqhqzvdpns"),
                     EnableSsl = true
                 };
                 smtpClient.Send(message);
